@@ -4,7 +4,8 @@
   "description": "Interactive TUI for exploring Git repository history",
   "type": "module",
   "bin": {
-    "gitwander": "./dist/index.js"
+    "gitwander": "./dist/index.js",
+    "starboard": "./dist/starboard/cli.js"
   },
   "scripts": {
     "build": "tsc",
