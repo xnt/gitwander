@@ -10,7 +10,6 @@ GitWander is a terminal-based TUI (built with React/Ink) for exploring Git repos
 
 - Node.js 22+ and npm (system-provided)
 - Git CLI on `$PATH`
-- `git config --global init.defaultBranch main` must be set (tests create temporary repos and expect `main` as the default branch)
 
 ### Key Commands
 

@@ -15,7 +15,7 @@ export class TestRepoBuilder {
   static create(prefix = "gitwander-test-"): TestRepoBuilder {
     const dir = mkdtempSync(path.join(tmpdir(), prefix));
     const builder = new TestRepoBuilder(dir);
-    builder.git("init");
+    builder.git("init -b main");
     builder.git("config user.name 'Test User'");
     builder.git("config user.email 'test@gitwander.dev'");
     return builder;
